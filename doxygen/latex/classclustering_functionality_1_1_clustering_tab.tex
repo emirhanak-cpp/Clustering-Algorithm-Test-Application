@@ -1,0 +1,403 @@
+\doxysection{clustering\+Functionality.\+Clustering\+Tab Class Reference}
+\hypertarget{classclustering_functionality_1_1_clustering_tab}{}\label{classclustering_functionality_1_1_clustering_tab}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+Inheritance diagram for clustering\+Functionality.\+Clustering\+Tab\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classclustering_functionality_1_1_clustering_tab}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a0f99d3bc5082676f4ddf6034ac406e45}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, initial\+Canvas, final\+Canvas, info\+Panel\+Text\+Box)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a4421d3cda4d129d33a30dbcd439f7376}{k\+Means\+Calculation}} (self, number\+Of\+Clusters=8, initializer\+Method="{}k-\/means++"{}, iteration\+Number=300, algorithm\+Type="{}auto"{})
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a27b95c93969ffa03e7528946ca739faa}{affinity\+Proagation\+Calculation}} (self, damping\+Amount=0.\+5, iteration\+Number=200, convergence\+Iteration=15, affinity\+Type="{}euclidean"{})
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_af1f4eeb586fb42755e20fb653a7f6f6d}{mean\+Shift\+Calculation}} (self, bandwidth\+Value=None, seedings\+Flag=False, iteration\+Number=300)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a000a88bef26ede4ae364b8f02f77c6ea}{spectral\+Clustering\+Calculation}} (self, number\+Of\+Clusters=8, number\+Of\+Neighbors=10, affinity\+Type="{}rbf"{}, initilazier\+Number=10, label\+To\+Assign="{}kmeans"{})
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a659fe33cf30c4ebe2fcabfcc8a815a23}{hierarchial\+Clustering\+Calculation}} (self, number\+Of\+Clusters=2, affinity\+Type="{}euclidean"{}, linkage\+Type="{}ward"{})
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_aaa64fb3b6900d6aaa03ca74a4804aab9}{DBSCANCalculation}} (self, eps\+Value=0.\+5, minimum\+Number\+Of\+Samples=5, algorithm\+Type="{}auto"{})
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a8cd6d498d27471742817305c8bbdd4be}{print\+Cluster\+On\+Initial\+Canvas}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a83e6f5deecf37c34397251568d7cba32}{closest\+Point\+To\+Center\+Calculation}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a0750e2422820b3e5ca9efb2288ba48a8}{furthest\+Distance\+To\+Hub\+Calculation}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a1710550c0bdbe895030a07e77638185c}{objective\+Function\+Result\+Calculation}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_ad840cc36c60a4e82af77e1704477b6db}{do\+General\+Work}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_aea1d252dc31e98ecd781da7132155be7}{get\+Cluster}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a35892f1c78bee7b052b529c17a9722cd}{get\+Label}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_ad10dc4f55b480bc4039f6084be13301a}{get\+Center}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a98dafa9ca737773731d862454c694bb7}{get\+Clustering\+Data}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a367b441ad270a33062b56d93b6274a03}{get\+Closest\+Point}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a3f6929360453d8c849b050d2eb0d5e0d}{get\+Farthest\+Point}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a2328a7c5553b34d0425c5747e6161d74}{ge\+Pair\+Objective}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a8b834dc8d16d98ad546c33fc8b0c5237}{get\+Objective\+Function\+Result}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a220265402cb65a211e711e4565605768}{get\+Information\+Panel}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_action_edit_1_1_edit_tab}{Action\+Edit.\+Edit\+Tab}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_action_edit_1_1_edit_tab_a370b53eea18ceee51ddb1439b1300c4c}{clear\+Initial\+Data}} (self)
+\item 
+\mbox{\hyperlink{class_action_edit_1_1_edit_tab_a638fa0410d2aaad3a9198a89f21aec05}{clear\+Final\+Data}} (self)
+\item 
+\mbox{\hyperlink{class_action_edit_1_1_edit_tab_a02f8d94efbd9d5770b45c1480945f374}{set\+Information\+Panel\+Object}} (self, info\+Panel\+Text\+Box)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_action_file_1_1_file_tab}{Action\+File.\+File\+Tab}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a0cb417c7e95716a47e3666229ce9161d}{open\+Data}} (self)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a092a64a75675993a01be590535fcd2a1}{save\+Initial\+Solution\+As\+Txt}} (self)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a9cdaa322249cf7a7c3a28c1ea5b85cf8}{save\+Final\+Solution\+As\+Txt}} (self, final\+Solution\+Data)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_ac9a69afd760c9d495094ff513c5afe71}{export\+Initial\+Solution\+As\+Txt\+Or\+Jpg}} (self)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a18ab7524112b4cc1e657f9ccf5f8e1d7}{export\+Final\+Solution\+As\+Txt\+Or\+Jpg}} (self)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_af4c650d7f6b7d855c18638eacac66763}{plot\+Random\+Data}} (self, random\+Data)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a5fd5b65d5f088e5fef8f4d7d64c82008}{get\+Initial\+Canvas\+Object}} (self)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a7f47320a27fac24dbc880d813ca69d93}{set\+Random\+Data}} (self, random\+Data)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a294bbea4215e2394c553dd21f61e8019}{get\+Random\+Data}} (self)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a7021060148b5b3da0446349dbe7a8446}{set\+Initial\+Data}} (self, initial\+Data)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classclustering_functionality_1_1_clustering_tab_ad2341f458a39b24f94d8ac7ea304dff1}\label{classclustering_functionality_1_1_clustering_tab_ad2341f458a39b24f94d8ac7ea304dff1} 
+{\bfseries cluster\+Center\+Node\+List}
+\item 
+\Hypertarget{classclustering_functionality_1_1_clustering_tab_afdcc888e87f20406ee0520827f2f6d03}\label{classclustering_functionality_1_1_clustering_tab_afdcc888e87f20406ee0520827f2f6d03} 
+{\bfseries all\+Possible\+Objective\+Pairs}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{class_action_edit_1_1_edit_tab}{Action\+Edit.\+Edit\+Tab}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries initial\+Canvas\+Object}
+\item 
+{\bfseries info\+Panel\+Text\+Box\+Object}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{class_action_file_1_1_file_tab}{Action\+File.\+File\+Tab}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries initial\+Canvas\+Object}
+\item 
+{\bfseries final\+Canvas}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classclustering_functionality_1_1_clustering_tab_a0f99d3bc5082676f4ddf6034ac406e45}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a0f99d3bc5082676f4ddf6034ac406e45} 
+clustering\+Functionality.\+Clustering\+Tab.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{initial\+Canvas}{, }\item[{}]{final\+Canvas}{, }\item[{}]{info\+Panel\+Text\+Box}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Constructor of the ClusteringTab class. Initializes the EditTab class that it inherits.
+
+Parameters
+----------
+initialCanvas : Initial solution canvas object.
+finalCanvas : Final solution canvas object.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_action_edit_1_1_edit_tab_a5e38fef048e22a2365e3230ecf41df32}{Action\+Edit.\+Edit\+Tab}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_a20753736c6010ec32bee9fcbb27f9c9e}{heuretics\+Functionality.\+Heuretics\+Tab}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classclustering_functionality_1_1_clustering_tab_a27b95c93969ffa03e7528946ca739faa}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!affinityProagationCalculation@{affinityProagationCalculation}}
+\index{affinityProagationCalculation@{affinityProagationCalculation}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{affinityProagationCalculation()}{affinityProagationCalculation()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a27b95c93969ffa03e7528946ca739faa} 
+clustering\+Functionality.\+Clustering\+Tab.\+affinity\+Proagation\+Calculation (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{damping\+Amount}{ = {\ttfamily 0.5}, }\item[{}]{iteration\+Number}{ = {\ttfamily 200}, }\item[{}]{convergence\+Iteration}{ = {\ttfamily 15}, }\item[{}]{affinity\+Type}{ = {\ttfamily "{}euclidean"{}}}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that calculates the Affinity Propagation of the opened data and displays it on the inital solution canvas.
+
+Parameters
+----------
+dampingAmount : The damping amount that will be used by the Affinity Propagation algorithm. The default is 0.5.
+iterationNumber : The iteration number that will be used by the Affinity Propagation algorithm. The default is 200.
+convergenceIteration : The convergence iteration number that will be used by the Affinity Propagation algorithm. The default is 15.
+affinityType : The type of affinity that will be used by the Affinity Propagation algorithm. The default is "euclidean".
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_a83e6f5deecf37c34397251568d7cba32}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!closestPointToCenterCalculation@{closestPointToCenterCalculation}}
+\index{closestPointToCenterCalculation@{closestPointToCenterCalculation}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{closestPointToCenterCalculation()}{closestPointToCenterCalculation()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a83e6f5deecf37c34397251568d7cba32} 
+clustering\+Functionality.\+Clustering\+Tab.\+closest\+Point\+To\+Center\+Calculation (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that determines the closest point to the center of each cluster.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_aaa64fb3b6900d6aaa03ca74a4804aab9}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!DBSCANCalculation@{DBSCANCalculation}}
+\index{DBSCANCalculation@{DBSCANCalculation}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{DBSCANCalculation()}{DBSCANCalculation()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_aaa64fb3b6900d6aaa03ca74a4804aab9} 
+clustering\+Functionality.\+Clustering\+Tab.\+DBSCANCalculation (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{eps\+Value}{ = {\ttfamily 0.5}, }\item[{}]{minimum\+Number\+Of\+Samples}{ = {\ttfamily 5}, }\item[{}]{algorithm\+Type}{ = {\ttfamily "{}auto"{}}}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that calculates the DBSCAN of the opened data and displays it on the inital solution canvas.
+
+Parameters
+----------
+epsValue : The eps value that will be used by the DBSCAN. The default is 0.5.
+minimumNumberOfSamples : The minimum number of samples that will be used by the DBSCAN. The default is 5.
+algorithmType : The algorithm type that will be applied by the DBSCAN. The default is "auto".
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_ad840cc36c60a4e82af77e1704477b6db}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!doGeneralWork@{doGeneralWork}}
+\index{doGeneralWork@{doGeneralWork}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{doGeneralWork()}{doGeneralWork()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_ad840cc36c60a4e82af77e1704477b6db} 
+clustering\+Functionality.\+Clustering\+Tab.\+do\+General\+Work (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that handles general work that is included in all clustering calculations.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_a0750e2422820b3e5ca9efb2288ba48a8}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!furthestDistanceToHubCalculation@{furthestDistanceToHubCalculation}}
+\index{furthestDistanceToHubCalculation@{furthestDistanceToHubCalculation}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{furthestDistanceToHubCalculation()}{furthestDistanceToHubCalculation()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a0750e2422820b3e5ca9efb2288ba48a8} 
+clustering\+Functionality.\+Clustering\+Tab.\+furthest\+Distance\+To\+Hub\+Calculation (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that determines the farthest distance to each cluster.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_a2328a7c5553b34d0425c5747e6161d74}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!gePairObjective@{gePairObjective}}
+\index{gePairObjective@{gePairObjective}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{gePairObjective()}{gePairObjective()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a2328a7c5553b34d0425c5747e6161d74} 
+clustering\+Functionality.\+Clustering\+Tab.\+ge\+Pair\+Objective (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that returns all of the pair objectives for each cluster.
+
+Returns
+-------
+All of the pair objectives for each cluster.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_ad10dc4f55b480bc4039f6084be13301a}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!getCenter@{getCenter}}
+\index{getCenter@{getCenter}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{getCenter()}{getCenter()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_ad10dc4f55b480bc4039f6084be13301a} 
+clustering\+Functionality.\+Clustering\+Tab.\+get\+Center (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that returns the center point of a cluster.
+
+Returns
+-------
+Center point of a cluster.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_a367b441ad270a33062b56d93b6274a03}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!getClosestPoint@{getClosestPoint}}
+\index{getClosestPoint@{getClosestPoint}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{getClosestPoint()}{getClosestPoint()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a367b441ad270a33062b56d93b6274a03} 
+clustering\+Functionality.\+Clustering\+Tab.\+get\+Closest\+Point (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that returns the all of the closest points to the center of each cluster.
+
+Returns
+-------
+All of the closest points to the center of each cluster.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_aea1d252dc31e98ecd781da7132155be7}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!getCluster@{getCluster}}
+\index{getCluster@{getCluster}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{getCluster()}{getCluster()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_aea1d252dc31e98ecd781da7132155be7} 
+clustering\+Functionality.\+Clustering\+Tab.\+get\+Cluster (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that returns a cluster.
+
+Returns
+-------
+Cluster.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_a98dafa9ca737773731d862454c694bb7}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!getClusteringData@{getClusteringData}}
+\index{getClusteringData@{getClusteringData}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{getClusteringData()}{getClusteringData()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a98dafa9ca737773731d862454c694bb7} 
+clustering\+Functionality.\+Clustering\+Tab.\+get\+Clustering\+Data (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that returns the clustering data of a cluster.
+
+Returns
+-------
+Clustering data of a cluster.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_a3f6929360453d8c849b050d2eb0d5e0d}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!getFarthestPoint@{getFarthestPoint}}
+\index{getFarthestPoint@{getFarthestPoint}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{getFarthestPoint()}{getFarthestPoint()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a3f6929360453d8c849b050d2eb0d5e0d} 
+clustering\+Functionality.\+Clustering\+Tab.\+get\+Farthest\+Point (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that returns all of the furthest points for each cluster.
+
+Returns
+-------
+All of the furthest points for each cluster.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_a220265402cb65a211e711e4565605768}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!getInformationPanel@{getInformationPanel}}
+\index{getInformationPanel@{getInformationPanel}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{getInformationPanel()}{getInformationPanel()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a220265402cb65a211e711e4565605768} 
+clustering\+Functionality.\+Clustering\+Tab.\+get\+Information\+Panel (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that return the information panel TextEdit object.
+
+Returns
+-------
+TextEdit object for the information panel.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_a35892f1c78bee7b052b529c17a9722cd}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!getLabel@{getLabel}}
+\index{getLabel@{getLabel}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{getLabel()}{getLabel()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a35892f1c78bee7b052b529c17a9722cd} 
+clustering\+Functionality.\+Clustering\+Tab.\+get\+Label (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that return the label for a cluster.
+
+Returns
+-------
+Label for a cluster.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_a8b834dc8d16d98ad546c33fc8b0c5237}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!getObjectiveFunctionResult@{getObjectiveFunctionResult}}
+\index{getObjectiveFunctionResult@{getObjectiveFunctionResult}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{getObjectiveFunctionResult()}{getObjectiveFunctionResult()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a8b834dc8d16d98ad546c33fc8b0c5237} 
+clustering\+Functionality.\+Clustering\+Tab.\+get\+Objective\+Function\+Result (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that return the inital solution objective result.
+
+Returns
+-------
+Inital solution objective result.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_a659fe33cf30c4ebe2fcabfcc8a815a23}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!hierarchialClusteringCalculation@{hierarchialClusteringCalculation}}
+\index{hierarchialClusteringCalculation@{hierarchialClusteringCalculation}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{hierarchialClusteringCalculation()}{hierarchialClusteringCalculation()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a659fe33cf30c4ebe2fcabfcc8a815a23} 
+clustering\+Functionality.\+Clustering\+Tab.\+hierarchial\+Clustering\+Calculation (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{number\+Of\+Clusters}{ = {\ttfamily 2}, }\item[{}]{affinity\+Type}{ = {\ttfamily "{}euclidean"{}}, }\item[{}]{linkage\+Type}{ = {\ttfamily "{}ward"{}}}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that calculates the Hierarchial Clustering of the opened data and displays it on the inital solution canvas.
+
+Parameters
+----------
+numberOfClusters : The number of clusters that will be used by the Hierarchial Clustering. The default is 2.
+affinityType : The type of affinity that will be used by the Hierarchial Clustering. The default is "euclidean".
+linkageType : The linkage type that will be used by the Hierarchial Clustering. The default is "ward".
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_a4421d3cda4d129d33a30dbcd439f7376}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!kMeansCalculation@{kMeansCalculation}}
+\index{kMeansCalculation@{kMeansCalculation}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{kMeansCalculation()}{kMeansCalculation()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a4421d3cda4d129d33a30dbcd439f7376} 
+clustering\+Functionality.\+Clustering\+Tab.\+k\+Means\+Calculation (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{number\+Of\+Clusters}{ = {\ttfamily 8}, }\item[{}]{initializer\+Method}{ = {\ttfamily "{}k-\/means++"{}}, }\item[{}]{iteration\+Number}{ = {\ttfamily 300}, }\item[{}]{algorithm\+Type}{ = {\ttfamily "{}auto"{}}}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that calculates the KMeans of the opened data and displays it on the inital solution canvas.
+
+Parameters
+----------
+numberOfClusters : The number of clusters that will be used by the KMeans algorithm. The default is 8.
+initializerMethod : The initialization method that will be used by the KMeans algorithm. The default is "k-means++".
+iterationNumber : The iteration number that will be used by the KMeans algorithm. The default is 300.
+algorithmType : The algortihm type that will be used by the KMeans algorithm. The default is "auto".
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_af1f4eeb586fb42755e20fb653a7f6f6d}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!meanShiftCalculation@{meanShiftCalculation}}
+\index{meanShiftCalculation@{meanShiftCalculation}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{meanShiftCalculation()}{meanShiftCalculation()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_af1f4eeb586fb42755e20fb653a7f6f6d} 
+clustering\+Functionality.\+Clustering\+Tab.\+mean\+Shift\+Calculation (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{bandwidth\+Value}{ = {\ttfamily None}, }\item[{}]{seedings\+Flag}{ = {\ttfamily False}, }\item[{}]{iteration\+Number}{ = {\ttfamily 300}}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that calculates the Mean-Shift of the opened data and displays it on the inital solution canvas.
+
+Parameters
+----------
+bandwidthValue : The bandwidth that will be used by the Mean-Shift algorithm. The default is None.
+seedingsFlag : The seedings flag that will be used by the Mean-Shift algorithm. The default is False.
+iterationNumber : The iteration number that will be used by the Mean-Shift algorithm. The default is 300.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_a1710550c0bdbe895030a07e77638185c}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!objectiveFunctionResultCalculation@{objectiveFunctionResultCalculation}}
+\index{objectiveFunctionResultCalculation@{objectiveFunctionResultCalculation}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{objectiveFunctionResultCalculation()}{objectiveFunctionResultCalculation()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a1710550c0bdbe895030a07e77638185c} 
+clustering\+Functionality.\+Clustering\+Tab.\+objective\+Function\+Result\+Calculation (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that determines the pair objective list of each cluster.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_a8cd6d498d27471742817305c8bbdd4be}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!printClusterOnInitialCanvas@{printClusterOnInitialCanvas}}
+\index{printClusterOnInitialCanvas@{printClusterOnInitialCanvas}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{printClusterOnInitialCanvas()}{printClusterOnInitialCanvas()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a8cd6d498d27471742817305c8bbdd4be} 
+clustering\+Functionality.\+Clustering\+Tab.\+print\+Cluster\+On\+Initial\+Canvas (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that displays the cluster on inital solution canvas.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classclustering_functionality_1_1_clustering_tab_a000a88bef26ede4ae364b8f02f77c6ea}\index{clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}!spectralClusteringCalculation@{spectralClusteringCalculation}}
+\index{spectralClusteringCalculation@{spectralClusteringCalculation}!clusteringFunctionality.ClusteringTab@{clusteringFunctionality.ClusteringTab}}
+\doxysubsubsection{\texorpdfstring{spectralClusteringCalculation()}{spectralClusteringCalculation()}}
+{\footnotesize\ttfamily \label{classclustering_functionality_1_1_clustering_tab_a000a88bef26ede4ae364b8f02f77c6ea} 
+clustering\+Functionality.\+Clustering\+Tab.\+spectral\+Clustering\+Calculation (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{number\+Of\+Clusters}{ = {\ttfamily 8}, }\item[{}]{number\+Of\+Neighbors}{ = {\ttfamily 10}, }\item[{}]{affinity\+Type}{ = {\ttfamily "{}rbf"{}}, }\item[{}]{initilazier\+Number}{ = {\ttfamily 10}, }\item[{}]{label\+To\+Assign}{ = {\ttfamily "{}kmeans"{}}}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that calculates the Spectral Clustering of the opened data and displays it on the inital solution canvas.
+
+Parameters
+----------
+numberOfClusters : The number of clusters that will be used by the Spectral Clustering algorithm. The default is 8.
+numberOfNeighbors : The number of neighbors that will be used by the Spectral Clustering algorithm. The default is 10.
+affinityType : The affinity type that will be used by the Spectral Clustering algorithm. The default is "rbf".
+initilazierNumber : The initialization number that will be used by the Spectral Clustering algorithm. The default is 10.
+labelToAssign : The label that will be assigned by the Spectral Clustering algorithm The default is "kmeans".
+
+Returns
+-------
+None.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+clustering\+Functionality.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,368 @@
+\doxysection{heuretics\+Functionality.\+Heuretics\+Tab Class Reference}
+\hypertarget{classheuretics_functionality_1_1_heuretics_tab}{}\label{classheuretics_functionality_1_1_heuretics_tab}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+Inheritance diagram for heuretics\+Functionality.\+Heuretics\+Tab\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classheuretics_functionality_1_1_heuretics_tab}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_a20753736c6010ec32bee9fcbb27f9c9e}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, initial\+Canvas, final\+Canvas, info\+Panel\+Text\+Box, results\+Text\+Box)
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_a056dda3ab1653bbe93ad484a4112a6ba}{set\+Heuretics\+Data}} (self)
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_a374ddca2d85e6300d24fcf3bd8e5babc}{redistribute\+Hubs}} (self)
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_a05404a988c538dca3c5bb0ead6508ad1}{redistribute\+Nodes}} (self)
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_a0e48d8f73e8a502cbd1c7d9ba8a9a589}{change\+Places\+Of\+Nodes}} (self)
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_a85413fdcc51f66048316722e2821f56a}{hill\+Climbing\+Calculation}} (self, number\+Of\+Iterations=100)
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_a1676014b1b044abc3cc2316a228f5f30}{simulated\+Anneling\+Calculation}} (self, number\+Of\+Iterations=100, temporary=10e-\/5)
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_aa6ca9dd76ba5172fd23eb3e88f23afef}{output\+Closest\+Point\+Center}} (self)
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_ae03187bdca76c59cc271e5d350f11833}{output\+Farthest\+Hub\+Distance}} (self)
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_afcade6238adb775070bcc537cbf33604}{output\+Objective\+Function}} (self)
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_a7ebf5c39631223a0f9a9265aa7f92973}{print\+Final\+Clusters}} (self)
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_a5a2bfceb359343d2f76663bcca28ed75}{plot\+Hub}} (self)
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_a89888001f0f144bbef3c0574ee371197}{set\+Final\+Solution\+Data}} (self, final\+Solution\+Data)
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_ae3779eef59b82997ed94945eae2f4459}{get\+Final\+Solution\+Data}} (self)
+\item 
+\mbox{\hyperlink{classheuretics_functionality_1_1_heuretics_tab_a215e89a577b11d23f3c9d07a8c32be3b}{set\+Result\+Text\+Box}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab}{clustering\+Functionality.\+Clustering\+Tab}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a4421d3cda4d129d33a30dbcd439f7376}{k\+Means\+Calculation}} (self, number\+Of\+Clusters=8, initializer\+Method="{}k-\/means++"{}, iteration\+Number=300, algorithm\+Type="{}auto"{})
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a27b95c93969ffa03e7528946ca739faa}{affinity\+Proagation\+Calculation}} (self, damping\+Amount=0.\+5, iteration\+Number=200, convergence\+Iteration=15, affinity\+Type="{}euclidean"{})
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_af1f4eeb586fb42755e20fb653a7f6f6d}{mean\+Shift\+Calculation}} (self, bandwidth\+Value=None, seedings\+Flag=False, iteration\+Number=300)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a000a88bef26ede4ae364b8f02f77c6ea}{spectral\+Clustering\+Calculation}} (self, number\+Of\+Clusters=8, number\+Of\+Neighbors=10, affinity\+Type="{}rbf"{}, initilazier\+Number=10, label\+To\+Assign="{}kmeans"{})
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a659fe33cf30c4ebe2fcabfcc8a815a23}{hierarchial\+Clustering\+Calculation}} (self, number\+Of\+Clusters=2, affinity\+Type="{}euclidean"{}, linkage\+Type="{}ward"{})
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_aaa64fb3b6900d6aaa03ca74a4804aab9}{DBSCANCalculation}} (self, eps\+Value=0.\+5, minimum\+Number\+Of\+Samples=5, algorithm\+Type="{}auto"{})
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a8cd6d498d27471742817305c8bbdd4be}{print\+Cluster\+On\+Initial\+Canvas}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a83e6f5deecf37c34397251568d7cba32}{closest\+Point\+To\+Center\+Calculation}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a0750e2422820b3e5ca9efb2288ba48a8}{furthest\+Distance\+To\+Hub\+Calculation}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a1710550c0bdbe895030a07e77638185c}{objective\+Function\+Result\+Calculation}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_ad840cc36c60a4e82af77e1704477b6db}{do\+General\+Work}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_aea1d252dc31e98ecd781da7132155be7}{get\+Cluster}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a35892f1c78bee7b052b529c17a9722cd}{get\+Label}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_ad10dc4f55b480bc4039f6084be13301a}{get\+Center}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a98dafa9ca737773731d862454c694bb7}{get\+Clustering\+Data}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a367b441ad270a33062b56d93b6274a03}{get\+Closest\+Point}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a3f6929360453d8c849b050d2eb0d5e0d}{get\+Farthest\+Point}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a2328a7c5553b34d0425c5747e6161d74}{ge\+Pair\+Objective}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a8b834dc8d16d98ad546c33fc8b0c5237}{get\+Objective\+Function\+Result}} (self)
+\item 
+\mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a220265402cb65a211e711e4565605768}{get\+Information\+Panel}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_action_edit_1_1_edit_tab}{Action\+Edit.\+Edit\+Tab}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_action_edit_1_1_edit_tab_a370b53eea18ceee51ddb1439b1300c4c}{clear\+Initial\+Data}} (self)
+\item 
+\mbox{\hyperlink{class_action_edit_1_1_edit_tab_a638fa0410d2aaad3a9198a89f21aec05}{clear\+Final\+Data}} (self)
+\item 
+\mbox{\hyperlink{class_action_edit_1_1_edit_tab_a02f8d94efbd9d5770b45c1480945f374}{set\+Information\+Panel\+Object}} (self, info\+Panel\+Text\+Box)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_action_file_1_1_file_tab}{Action\+File.\+File\+Tab}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a0cb417c7e95716a47e3666229ce9161d}{open\+Data}} (self)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a092a64a75675993a01be590535fcd2a1}{save\+Initial\+Solution\+As\+Txt}} (self)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a9cdaa322249cf7a7c3a28c1ea5b85cf8}{save\+Final\+Solution\+As\+Txt}} (self, final\+Solution\+Data)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_ac9a69afd760c9d495094ff513c5afe71}{export\+Initial\+Solution\+As\+Txt\+Or\+Jpg}} (self)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a18ab7524112b4cc1e657f9ccf5f8e1d7}{export\+Final\+Solution\+As\+Txt\+Or\+Jpg}} (self)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_af4c650d7f6b7d855c18638eacac66763}{plot\+Random\+Data}} (self, random\+Data)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a5fd5b65d5f088e5fef8f4d7d64c82008}{get\+Initial\+Canvas\+Object}} (self)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a7f47320a27fac24dbc880d813ca69d93}{set\+Random\+Data}} (self, random\+Data)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a294bbea4215e2394c553dd21f61e8019}{get\+Random\+Data}} (self)
+\item 
+\mbox{\hyperlink{class_action_file_1_1_file_tab_a7021060148b5b3da0446349dbe7a8446}{set\+Initial\+Data}} (self, initial\+Data)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classheuretics_functionality_1_1_heuretics_tab_ae55df6f59376b047f187f039cbc94986}\label{classheuretics_functionality_1_1_heuretics_tab_ae55df6f59376b047f187f039cbc94986} 
+{\bfseries output\+Data\+Frame\+Data}
+\item 
+\Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a943037bd0ac5fea69b53fee545be6a09}\label{classheuretics_functionality_1_1_heuretics_tab_a943037bd0ac5fea69b53fee545be6a09} 
+{\bfseries output\+Closest\+Point\+To\+Center\+Dict}
+\item 
+\Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a3ea04b09cff7ec701c19bd12683a3336}\label{classheuretics_functionality_1_1_heuretics_tab_a3ea04b09cff7ec701c19bd12683a3336} 
+{\bfseries output\+Cluster\+Center\+Node}
+\item 
+\Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a94f9c618d38c502fc48ea71383db46d6}\label{classheuretics_functionality_1_1_heuretics_tab_a94f9c618d38c502fc48ea71383db46d6} 
+{\bfseries output\+Furthest\+Point\+To\+Hub\+Dict}
+\item 
+\Hypertarget{classheuretics_functionality_1_1_heuretics_tab_aca2039b7650ba619286ff1ff53bbe7cf}\label{classheuretics_functionality_1_1_heuretics_tab_aca2039b7650ba619286ff1ff53bbe7cf} 
+{\bfseries output\+Pairs\+Of\+Objective\+List}
+\item 
+\Hypertarget{classheuretics_functionality_1_1_heuretics_tab_ac327b473eac19249073aafbc59a58121}\label{classheuretics_functionality_1_1_heuretics_tab_ac327b473eac19249073aafbc59a58121} 
+{\bfseries final\+Solution\+Data}
+\item 
+\Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a53ebf147df4cfc3a7d6509ce68c0d5cd}\label{classheuretics_functionality_1_1_heuretics_tab_a53ebf147df4cfc3a7d6509ce68c0d5cd} 
+{\bfseries results\+Text\+Box}
+\item 
+\Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a60dc95916c39a7c57ce73297b81974fa}\label{classheuretics_functionality_1_1_heuretics_tab_a60dc95916c39a7c57ce73297b81974fa} 
+{\bfseries flag}
+\item 
+\Hypertarget{classheuretics_functionality_1_1_heuretics_tab_acd679da708f0f66389266331d0e3dfc9}\label{classheuretics_functionality_1_1_heuretics_tab_acd679da708f0f66389266331d0e3dfc9} 
+{\bfseries text}
+\item 
+\Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a6aad2e36d766fac589408dca03968f52}\label{classheuretics_functionality_1_1_heuretics_tab_a6aad2e36d766fac589408dca03968f52} 
+{\bfseries output\+Of\+All\+Possible\+Pairs}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab}{clustering\+Functionality.\+Clustering\+Tab}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries cluster\+Center\+Node\+List}
+\item 
+{\bfseries all\+Possible\+Objective\+Pairs}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{class_action_edit_1_1_edit_tab}{Action\+Edit.\+Edit\+Tab}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries initial\+Canvas\+Object}
+\item 
+{\bfseries info\+Panel\+Text\+Box\+Object}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{class_action_file_1_1_file_tab}{Action\+File.\+File\+Tab}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries initial\+Canvas\+Object}
+\item 
+{\bfseries final\+Canvas}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a20753736c6010ec32bee9fcbb27f9c9e}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_a20753736c6010ec32bee9fcbb27f9c9e} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{initial\+Canvas}{, }\item[{}]{final\+Canvas}{, }\item[{}]{info\+Panel\+Text\+Box}{, }\item[{}]{results\+Text\+Box}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Constructor of the HeureticsTab class. Initializes the ClusteringTab class.
+
+Parameters
+----------
+initialCanvas : Initial solution canvas object.
+finalCanvas : Final solution canvas object.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{classclustering_functionality_1_1_clustering_tab_a0f99d3bc5082676f4ddf6034ac406e45}{clustering\+Functionality.\+Clustering\+Tab}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a0e48d8f73e8a502cbd1c7d9ba8a9a589}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!changePlacesOfNodes@{changePlacesOfNodes}}
+\index{changePlacesOfNodes@{changePlacesOfNodes}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{changePlacesOfNodes()}{changePlacesOfNodes()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_a0e48d8f73e8a502cbd1c7d9ba8a9a589} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+change\+Places\+Of\+Nodes (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that swaps the nodes.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classheuretics_functionality_1_1_heuretics_tab_ae3779eef59b82997ed94945eae2f4459}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!getFinalSolutionData@{getFinalSolutionData}}
+\index{getFinalSolutionData@{getFinalSolutionData}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{getFinalSolutionData()}{getFinalSolutionData()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_ae3779eef59b82997ed94945eae2f4459} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+get\+Final\+Solution\+Data (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that returns the final solution data.
+
+Returns
+-------
+Final solution data.\end{DoxyVerb}
+ \Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a85413fdcc51f66048316722e2821f56a}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!hillClimbingCalculation@{hillClimbingCalculation}}
+\index{hillClimbingCalculation@{hillClimbingCalculation}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{hillClimbingCalculation()}{hillClimbingCalculation()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_a85413fdcc51f66048316722e2821f56a} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+hill\+Climbing\+Calculation (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{number\+Of\+Iterations}{ = {\ttfamily 100}}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that calculates the Hill Climbing of the opened data and displays it on final solution canvas.
+
+Parameters
+----------
+numberOfIterations : The number of iterations that will be used by the Hill Climbing algorithm. The default is 100.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classheuretics_functionality_1_1_heuretics_tab_aa6ca9dd76ba5172fd23eb3e88f23afef}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!outputClosestPointCenter@{outputClosestPointCenter}}
+\index{outputClosestPointCenter@{outputClosestPointCenter}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{outputClosestPointCenter()}{outputClosestPointCenter()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_aa6ca9dd76ba5172fd23eb3e88f23afef} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+output\+Closest\+Point\+Center (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that determines the closest points to the center.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classheuretics_functionality_1_1_heuretics_tab_ae03187bdca76c59cc271e5d350f11833}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!outputFarthestHubDistance@{outputFarthestHubDistance}}
+\index{outputFarthestHubDistance@{outputFarthestHubDistance}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{outputFarthestHubDistance()}{outputFarthestHubDistance()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_ae03187bdca76c59cc271e5d350f11833} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+output\+Farthest\+Hub\+Distance (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that determines the furthest distances to the hub.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classheuretics_functionality_1_1_heuretics_tab_afcade6238adb775070bcc537cbf33604}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!outputObjectiveFunction@{outputObjectiveFunction}}
+\index{outputObjectiveFunction@{outputObjectiveFunction}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{outputObjectiveFunction()}{outputObjectiveFunction()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_afcade6238adb775070bcc537cbf33604} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+output\+Objective\+Function (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that determines the output pairs of the objective function.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a5a2bfceb359343d2f76663bcca28ed75}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!plotHub@{plotHub}}
+\index{plotHub@{plotHub}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{plotHub()}{plotHub()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_a5a2bfceb359343d2f76663bcca28ed75} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+plot\+Hub (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that plots and displays the hubs on the final solution canvas.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a7ebf5c39631223a0f9a9265aa7f92973}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!printFinalClusters@{printFinalClusters}}
+\index{printFinalClusters@{printFinalClusters}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{printFinalClusters()}{printFinalClusters()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_a7ebf5c39631223a0f9a9265aa7f92973} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+print\+Final\+Clusters (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that displays the final clusters on the final solution canvas.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a374ddca2d85e6300d24fcf3bd8e5babc}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!redistributeHubs@{redistributeHubs}}
+\index{redistributeHubs@{redistributeHubs}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{redistributeHubs()}{redistributeHubs()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_a374ddca2d85e6300d24fcf3bd8e5babc} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+redistribute\+Hubs (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that reallocates the hub.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a05404a988c538dca3c5bb0ead6508ad1}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!redistributeNodes@{redistributeNodes}}
+\index{redistributeNodes@{redistributeNodes}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{redistributeNodes()}{redistributeNodes()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_a05404a988c538dca3c5bb0ead6508ad1} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+redistribute\+Nodes (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that reallocates the node.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a89888001f0f144bbef3c0574ee371197}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!setFinalSolutionData@{setFinalSolutionData}}
+\index{setFinalSolutionData@{setFinalSolutionData}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{setFinalSolutionData()}{setFinalSolutionData()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_a89888001f0f144bbef3c0574ee371197} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+set\+Final\+Solution\+Data (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{final\+Solution\+Data}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that sets the final solution data.
+
+Parameters
+----------
+finalSolutionData : Final solution data after the heuretics operations.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a056dda3ab1653bbe93ad484a4112a6ba}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!setHeureticsData@{setHeureticsData}}
+\index{setHeureticsData@{setHeureticsData}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{setHeureticsData()}{setHeureticsData()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_a056dda3ab1653bbe93ad484a4112a6ba} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+set\+Heuretics\+Data (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that sets the heuretics data that is calculated.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a215e89a577b11d23f3c9d07a8c32be3b}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!setResultTextBox@{setResultTextBox}}
+\index{setResultTextBox@{setResultTextBox}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{setResultTextBox()}{setResultTextBox()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_a215e89a577b11d23f3c9d07a8c32be3b} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+set\+Result\+Text\+Box (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that sets the text on the TextEdit object associated with the results.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ \Hypertarget{classheuretics_functionality_1_1_heuretics_tab_a1676014b1b044abc3cc2316a228f5f30}\index{heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}!simulatedAnnelingCalculation@{simulatedAnnelingCalculation}}
+\index{simulatedAnnelingCalculation@{simulatedAnnelingCalculation}!heureticsFunctionality.HeureticsTab@{heureticsFunctionality.HeureticsTab}}
+\doxysubsubsection{\texorpdfstring{simulatedAnnelingCalculation()}{simulatedAnnelingCalculation()}}
+{\footnotesize\ttfamily \label{classheuretics_functionality_1_1_heuretics_tab_a1676014b1b044abc3cc2316a228f5f30} 
+heuretics\+Functionality.\+Heuretics\+Tab.\+simulated\+Anneling\+Calculation (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{number\+Of\+Iterations}{ = {\ttfamily 100}, }\item[{}]{temporary}{ = {\ttfamily 10e-\/5}}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function that calculates the Simulated Anneling of the opened data and displays it on final solution canvas. 
+
+Parameters
+----------
+numberOfIterations : The number of iterations that will be use by the Simulated Anneling algorithm. The default is 100.
+temporary : The temporary value that will be used by the Simulated Anneling algorithm. The default is 10e-5.
+
+Returns
+-------
+None.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+heuretics\+Functionality.\+py\end{DoxyCompactItemize}
