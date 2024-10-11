@@ -5,7 +5,7 @@ The .txt files are example files that contain the data of the points that is bei
 In the final release of the application, example data and doxygen documentation is added.
 
 ## How to use:
-- Run 'hubAllocationUserInterface.py'
+- Run `hubAllocationUserInterface.py`
 - Click on the folder icon or click on 'File' then 'Open Data' to open a .txt file containing the point data
 - Select the desired clustering algorithm and determine the parameters
 - Export or save the data as .jpg or .txt files respectively
