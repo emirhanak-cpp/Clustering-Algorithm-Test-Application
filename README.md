@@ -4,7 +4,7 @@ In this repository I have included all of the .py files responsible for all of t
 The .txt files are example files that contain the data of the points that is being used by the clustering application.
 In the final release of the application, example data and doxygen documentation is added.
 
-# How to use:
+## How to use:
 - Run 'hubAllocationUserInterface.py'
 - Click on the folder icon or click on 'File' then 'Open Data' to open a .txt file containing the point data
 - Select the desired clustering algorithm and determine the parameters
